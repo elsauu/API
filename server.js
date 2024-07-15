@@ -70,7 +70,7 @@ app.use(function (req, res, next) {
 });
 
 const port = process.env.PORT || 4000;
-global.mainURL = process.env.MAIN_URL || "https://api-sfpl.onrender.com" + port;
+global.mainURL = process.env.MAIN_URL || "https://api-1-5z58.onrender.com" + port;
 
 // Configuración de nodemailer usando variables de entorno
 var nodemailerFrom = process.env.NODEMAILER_FROM || "support@adnan-tech.com";
